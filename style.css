@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+
+.container{
+  width: 85vw;
+  margin: auto;
+}
+
+.row{
+  width: 85vw;
+  margin: auto;
+  position: relative;
+}
+
+.row:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.col-4{
+  padding: 50px;
+  text-align: center;
+}
+
+.col-6{
+  text-align: left;
+  color: #4a4a4a;
+  font-size: 30px;
+}
+
+#te1{
+  color: #4a4a4a;
+  font-size: 30px;
+  padding:80px;
+}
+
+#te2{
+  font-size: 18px;
+  font-weight: 300;
+  color: #999;
+  padding:80px;
+  margin-top: -150px;
+}
+
+#primoori img{
+  width: 200px;
+  height:150px;
+  margin:40px;
+  margin-top: -20px;
+}
+.row h3{
+  color: #7fb802;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.row p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color:#999;
+  font-weight: 150;
+}
+
+#best-2 img{
+  width: 450px;
+  margin-left: 100px;
+}
+
+hr{
+  width:30px;
+  color:#999;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+#linea{
+  width:85vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+a{
+ color: #98c8f8;
+  text-decoration: underline;
+  padding:80px;
+  font-size: 17px;
+}
